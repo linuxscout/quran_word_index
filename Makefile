@@ -12,4 +12,7 @@ default: all
 corpus:
 	# run stemmer
 	python scripts/convert_quran_corpus_to_csv.py -f ${DATA} -o ${OUTDATA}
+# Publish to github
+publish:
+	git push origin master 
 
