@@ -17,3 +17,6 @@ Index of  Quran words in arabic
 * المثنى
 * المؤنث
 * العلم
+
+# استيراد ملف Quranic corpus
+	make corpus
